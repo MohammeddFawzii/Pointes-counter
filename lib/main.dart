@@ -34,11 +34,11 @@ class _PointsCounterState extends State<PointsCounter> {
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                   const Text(
                     "Team A",
-                    style: TextStyle(fontSize: 55),
+                    style: TextStyle(fontSize: 50),
                   ),
                   Text(
                     teamACounter.toString(),
-                    style: const TextStyle(fontSize: 200),
+                    style: const TextStyle(fontSize: 180),
                   ),
                   //add 1 point
                   ElevatedButton(
@@ -98,11 +98,11 @@ class _PointsCounterState extends State<PointsCounter> {
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                   const Text(
                     "Team B",
-                    style: TextStyle(fontSize: 55),
+                    style: TextStyle(fontSize: 50),
                   ),
                   Text(
                     teamBCounter.toString(),
-                    style: const TextStyle(fontSize: 200),
+                    style: const TextStyle(fontSize: 180),
                   ),
                   // add 1 point
                   ElevatedButton(
