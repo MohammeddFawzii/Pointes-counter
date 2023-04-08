@@ -72,7 +72,7 @@ class _PointsCounterState extends State<PointsCounter> {
                       ),
                     ),
                   ),
-                  //add 3 points 
+                  //add 3 points
                   ElevatedButton(
                     style:
                         ElevatedButton.styleFrom(backgroundColor: Colors.brown),
@@ -156,7 +156,12 @@ class _PointsCounterState extends State<PointsCounter> {
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(backgroundColor: Colors.brown),
-            onPressed: () {},
+            onPressed: () {
+              setState(() {
+                teamACounter = 0;
+                teamBCounter = 0;
+              });
+            },
             child: const Text(
               "Reset",
               style: TextStyle(
