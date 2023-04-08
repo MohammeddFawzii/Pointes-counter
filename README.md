@@ -1,6 +1,7 @@
 # points_counter
 
-A new Flutter project.
+A new Flutter project that calculat team's points in basketball game .
+I made this project for training purpose.
 
 ## Getting Started
 
